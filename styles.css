@@ -1,0 +1,23 @@
+body{
+    padding:0px;
+    margin:0px;
+    background-image: url("img/wave-background-abstract-gradient-design_483537-3688.avif");
+    background-size:cover;
+    
+    
+
+}
+.page-title-container{
+    display:flex;
+    flex-direction:row;
+    align-items: flex-start;
+    padding-left:16px;
+    
+}
+.page-title{
+    color:white;
+    font-size:22px;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
+
+}
