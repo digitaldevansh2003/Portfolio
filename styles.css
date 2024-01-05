@@ -1,17 +1,20 @@
 body{
-    padding:0px;
     margin:0px;
-    background-image: url("img/wave-background-abstract-gradient-design_483537-3688.avif");
-    background-size:cover;
-    
-    
+    padding:0px;
+}
+
+.home-block-1{
+    margin:0px;
+    padding:50px;
+    height:800px;
+    background-image: url("img/_\ \(4\).jpeg");
+    background-size: cover;
 
 }
 .page-title-container{
     display:flex;
     flex-direction:row;
     align-items: flex-start;
-    padding-left:16px;
     
 }
 .page-title{
@@ -19,5 +22,63 @@ body{
     font-size:22px;
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto Flex', sans-serif;
+    font-weight: 500;
 
 }
+.menu-container{
+    display:flex;
+    flex-direction:column;
+    align-items:end;
+    
+}
+.menu-title{
+    color:mediumpurple;
+    font-size:14px;
+    padding-bottom: 8px;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.home-tab-1{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.name p{
+    color:mediumpurple;
+    font-size:30px;
+}
+.insta{
+    color:rgb(177, 164, 204);
+}
+.linkdin{
+    color:rgb(177, 164, 204);
+}
+.twitter{
+    color:rgb(177, 164, 204);
+}
+.h1{
+    font-size:30px;
+    color:mediumpurple;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 700;
+    
+}
+.h2{
+    font-size:18px;
+    color:rgb(177, 164, 204);
+    margin-top:-20px;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
+}
+.zoom-image {
+    width: 500px; 
+    transition: transform 0.4s ease; 
+    margin-top:-200px;}
+  
+.zoom-image:hover {
+    
+    transform: scale(1.5);
+}
+
