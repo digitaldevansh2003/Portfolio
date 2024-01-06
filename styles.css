@@ -9,7 +9,7 @@ body {
     position: relative;
     margin:0px;
     padding:50px;
-    height:620px;
+    height:100vh;
     background-image: url("img/_\ \(4\).jpeg");
     background-size: cover;
 
@@ -103,24 +103,20 @@ body {
     justify-content: center;
 }
 
-.home-block-2 h1{
-
-}
 
 /*Carousel styles*/
 
 .carousel-inner {
     max-width: 100%;
     width: 100%;
-    margin: 0 auto;
     }
     
     .carousel-container {
     position: absolute;
     height: 300px;
     width: 600px;
-    top: 60px;
-    left: calc(50% - 250px);
+    top: 130px;
+    left: calc(50% - 300px);
     display: flex;
     align-items: center;
     margin-top:100px;
@@ -128,19 +124,14 @@ body {
     
     .carousel-card {
     display: flex;
-    height: 280px;
-    width: 200px;
+    height: 300px;
+    width: 400px;
     background-color: #17141d;
     border-radius: 10px;
     box-shadow: -1rem 0 3rem #000;
     /*   margin-left: -50px; */
     transition: 0.4s ease-out;
     position: relative;
-    left: 0px;
-    }
-    
-    .carousel-card:not(:first-child) {
-      margin-left: -50px;
     }
     
     .carousel-card:hover {
@@ -150,12 +141,11 @@ body {
     
     .carousel-card:hover ~ .card {
     position: relative;
-    left: 50px;
     transition: 0.4s ease-out;
     }
     
     .carousel-card-title {
-    color: white;
+    color: mediumpurple;
     font-weight: 300;
     position: absolute;
     left: 20px;
@@ -189,7 +179,7 @@ body {
     }
     
     .carousel-card:hover .filledbar {
-    width: 120px;
+    width: 150px;
     transition: 0.4s ease-out;
     }
     
@@ -216,14 +206,4 @@ body {
     transition: 0.6s ease-out;
     }
     
-    .black-strip{
-    height:80px;
-    width:100%;
-    position: absolute;
-    top:70%;
-    background-color: #17141d;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    }
+    
