@@ -25,20 +25,20 @@ Welcome to my portfolio! Here, I'll showcase my skills, projects, and experience
 - Tools: Git, VSCode, IntelliJ IDEA
 
 ## Projects <a name="projects"></a>
-### Project 1: [Project Name]
-- **Description:** [Brief description]
-- **Technologies:** [Tech stack used]
+### Project 1: Disaster Management Portal
+- **Description:** Me and my team have created a modern society oriented desaster management portal to assist people before , during and after disaster .The highlight of the project is that it can send alert signals at time of calamity .
+- **Technologies:** HTML , CSS , javaScript , Tailwind , Bootstrap , Python etc.
 
-### Project 2: [Project Name]
-- **Description:** [Brief description]
-- **Technologies:** [Tech stack used]
+### Project 2: Community Crime Mapping
+- **Description:** Me and my team built a modern web application to map the crimes in a scope of a location . The project basically focuses on marking the places of incident near the user and alert the user about the incidents nearby.
+- **Technologies:** Maptiler API , HTML , CSS , Bootstrap , javaScript , Tailwind , Python , Canva , Picsart etc.
 
 <!-- Add more projects as needed -->
 
 ## Contact <a name="contact"></a>
 Feel free to reach out to me!
-- **Email:** [Your Email Address]
-- **LinkedIn:** [Your LinkedIn Profile]
-- **GitHub:** [Your GitHub Profile]
-- **Phone:** [Your Phone Number]
+- **Email:** thisisdevansh@icloud.com
+- **LinkedIn:** Devansh Pratap Singh
+- **GitHub:** digitaldevansh2003
+
 
