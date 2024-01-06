@@ -17,7 +17,7 @@ Welcome to my portfolio! Here, I'll showcase my skills, projects, and experience
 - **Institute:** GL Bajaj Institute of Technology and Management
 - **Location:** Greater Noida, UP
 - **Degree:** Bachelor of Technology in Computer Science and Engineering
-- **Year:** Second year
+- **Year:** `Second year`
 
 ### Skills
 - Programming Languages: Java, Python, JavaScript
@@ -25,11 +25,11 @@ Welcome to my portfolio! Here, I'll showcase my skills, projects, and experience
 - Tools: Git, VSCode, IntelliJ IDEA
 
 ## Projects <a name="projects"></a>
-### Project 1: Disaster Management Portal
+### Project 1: `Disaster Management Portal`
 - **Description:** Me and my team have created a modern society-oriented disaster management portal to assist people before, during, and after a disaster. The highlight of the project is that it can send alert signals at the time of calamity.
 - **Technologies:** HTML, CSS, JavaScript, Tailwind, Bootstrap, Python, etc.
 
-### Project 2: Community Crime Mapping
+### Project 2: `Community Crime Mapping`
 - **Description:** Me and my team built a modern web application to map crimes in a specific location. The project focuses on marking the places of incidents near the user and alerts the user about nearby incidents.
 - **Technologies:** Maptiler API, HTML, CSS, Bootstrap, JavaScript, Tailwind, Python, Canva, Picsart, etc.
 
@@ -37,6 +37,6 @@ Welcome to my portfolio! Here, I'll showcase my skills, projects, and experience
 
 ## Contact <a name="contact"></a>
 Feel free to reach out to me!
-- **Email:** thisisdevansh@icloud.com
-- **LinkedIn:** Devansh Pratap Singh
-- **GitHub:** digitaldevansh2003
+- `Email:` thisisdevansh@icloud.com
+- `LinkedIn:` Devansh Pratap Singh
+- `GitHub:` digitaldevansh2003
