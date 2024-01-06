@@ -26,12 +26,12 @@ Welcome to my portfolio! Here, I'll showcase my skills, projects, and experience
 
 ## Projects <a name="projects"></a>
 ### Project 1: Disaster Management Portal
-- **Description:** Me and my team have created a modern society oriented desaster management portal to assist people before , during and after disaster .The highlight of the project is that it can send alert signals at time of calamity .
-- **Technologies:** HTML , CSS , javaScript , Tailwind , Bootstrap , Python etc.
+- **Description:** Me and my team have created a modern society-oriented disaster management portal to assist people before, during, and after a disaster. The highlight of the project is that it can send alert signals at the time of calamity.
+- **Technologies:** HTML, CSS, JavaScript, Tailwind, Bootstrap, Python, etc.
 
 ### Project 2: Community Crime Mapping
-- **Description:** Me and my team built a modern web application to map the crimes in a scope of a location . The project basically focuses on marking the places of incident near the user and alert the user about the incidents nearby.
-- **Technologies:** Maptiler API , HTML , CSS , Bootstrap , javaScript , Tailwind , Python , Canva , Picsart etc.
+- **Description:** Me and my team built a modern web application to map crimes in a specific location. The project focuses on marking the places of incidents near the user and alerts the user about nearby incidents.
+- **Technologies:** Maptiler API, HTML, CSS, Bootstrap, JavaScript, Tailwind, Python, Canva, Picsart, etc.
 
 <!-- Add more projects as needed -->
 
@@ -40,5 +40,3 @@ Feel free to reach out to me!
 - **Email:** thisisdevansh@icloud.com
 - **LinkedIn:** Devansh Pratap Singh
 - **GitHub:** digitaldevansh2003
-
-
