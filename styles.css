@@ -1,12 +1,15 @@
-body{
-    margin:0px;
-    padding:0px;
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("img/_\ \(4\).jpeg"); 
+    background-size: cover;
 }
 
 .home-block-1{
+    position: relative;
     margin:0px;
     padding:50px;
-    height:800px;
+    height:620px;
     background-image: url("img/_\ \(4\).jpeg");
     background-size: cover;
 
@@ -48,18 +51,17 @@ body{
     color:mediumpurple;
     font-size:30px;
 }
-.insta{
-    color:rgb(177, 164, 204);
+.insta, .linkdin, .twitter {
+    color: rgb(177, 164, 204);
+    text-decoration: none; 
+    padding-right:15px;
 }
-.linkdin{
-    color:rgb(177, 164, 204);
-}
-.twitter{
-    color:rgb(177, 164, 204);
+.insta:hover, .linkdin:hover, .twitter:hover {
+    color:rgb(221, 217, 229);
 }
 .h1{
-    font-size:30px;
-    color:mediumpurple;
+    font-size:55px;
+    color:white;
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto Flex', sans-serif;
     font-weight: 700;
@@ -67,8 +69,16 @@ body{
 }
 .h2{
     font-size:18px;
-    color:rgb(177, 164, 204);
+    color:white;
     margin-top:-20px;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
+}
+.h3{
+    font-size:18px;
+    font-weight:500;
+    color:white;
+    margin-bottom:-50px;
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto Flex', sans-serif;
 }
@@ -82,3 +92,138 @@ body{
     transform: scale(1.5);
 }
 
+.home-block-2 {
+    position: relative;
+    margin: 50px;
+    padding: 50px;
+    height: 620px;
+    background-image: url("img/Dark\ wallpaper\ 1920x1080\ ·①\ Download\ free\ awesome\ full\ HD\ backgrounds\ for\ desktop\ and\ mobile\ devices\ in\ any\ resolution_\ desktop\,\ Android\,\ iPhone\,\ iPad\ 1920x1080\,\ 320x480\,\ 1680x1050\,\ 1280x900\ etc_\ WallpaperTag.jpeg");
+    background-size: cover;
+    display: flex; 
+    justify-content: center;
+}
+
+.home-block-2 h1{
+
+}
+
+/*Carousel styles*/
+
+.carousel-inner {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    }
+    
+    .carousel-container {
+    position: absolute;
+    height: 300px;
+    width: 600px;
+    top: 60px;
+    left: calc(50% - 250px);
+    display: flex;
+    align-items: center;
+    margin-top:100px;
+    }
+    
+    .carousel-card {
+    display: flex;
+    height: 280px;
+    width: 200px;
+    background-color: #17141d;
+    border-radius: 10px;
+    box-shadow: -1rem 0 3rem #000;
+    /*   margin-left: -50px; */
+    transition: 0.4s ease-out;
+    position: relative;
+    left: 0px;
+    }
+    
+    .carousel-card:not(:first-child) {
+      margin-left: -50px;
+    }
+    
+    .carousel-card:hover {
+    transform: translateY(-20px);
+    transition: 0.4s ease-out;
+    }
+    
+    .carousel-card:hover ~ .card {
+    position: relative;
+    left: 50px;
+    transition: 0.4s ease-out;
+    }
+    
+    .carousel-card-title {
+    color: white;
+    font-weight: 300;
+    position: absolute;
+    left: 20px;
+    top: 15px;
+    }
+    
+    .bar {
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    height: 5px;
+    width: 150px;
+    }
+    
+    .emptybar {
+    background-color: #2e3033;
+    width: 100%;
+    height: 100%;
+    }
+    
+    .filledbar {
+    position: absolute;
+    top: 0px;
+    z-index: 3;
+    width: 0px;
+    height: 100%;
+    background: rgb(0,154,217);
+    background: linear-gradient(90deg, rgba(0,154,217,1) 0%, rgba(217,147,0,1) 65%, rgba(255,186,0,1) 100%);
+    transition: 0.6s ease-out;
+    color:rgba(255, 255, 255, 0.472)
+    }
+    
+    .carousel-card:hover .filledbar {
+    width: 120px;
+    transition: 0.4s ease-out;
+    }
+    
+    .circle {
+    position: absolute;
+    top: 150px;
+    left: calc(50% - 60px);
+    }
+    
+    .stroke {
+    stroke: white;
+    stroke-dasharray: 360;
+    stroke-dashoffset: 360;
+    transition: 0.6s ease-out;
+    }
+    
+    svg {
+    fill: #17141d;
+    stroke-width: 2px;
+    }
+    
+    .card:hover .stroke {
+    stroke-dashoffset: 100;
+    transition: 0.6s ease-out;
+    }
+    
+    .black-strip{
+    height:80px;
+    width:100%;
+    position: absolute;
+    top:70%;
+    background-color: #17141d;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
