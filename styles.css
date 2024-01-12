@@ -34,6 +34,15 @@ body {
     align-items:end;
     
 }
+.menu-container a{
+    text-decoration: none;
+    color:white;
+    transition: color 0.3s;
+}
+.menu-container a:hover{
+    color:mediumpurple;
+    
+}
 .menu-title{
     color:mediumpurple;
     font-size:14px;
@@ -83,9 +92,9 @@ body {
     font-family: 'Roboto Flex', sans-serif;
 }
 .zoom-image {
-    width: 500px; 
+    width: 600px; 
     transition: transform 0.4s ease; 
-    margin-top:-200px;}
+    margin-top:-50px;}
   
 .zoom-image:hover {
     
