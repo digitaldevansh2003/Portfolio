@@ -231,6 +231,14 @@ body {
     display:flex;
     flex-direction:column;
     justify-content: center;
+    align-items: center;
+    margin-top:100px;
+    padding: 100px;
+}
+
+.about-block-1-column-2 p{
+    padding-top:30px;
+    font-size: 21px;
 }
 .about-photo {
     position: relative;
@@ -238,7 +246,7 @@ body {
     height: 300px; 
     border-radius: 50%;
     overflow: hidden; 
-    margin:20px;
+    margin:50px;
 }
 
 .about-photo-devansh {
@@ -249,6 +257,7 @@ body {
 }
 .h4{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 40px;
 }
 .h4{
     font-family: "Protest Revolution", sans-serif;
