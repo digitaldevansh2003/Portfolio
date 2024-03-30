@@ -215,4 +215,46 @@ body {
     transition: 0.6s ease-out;
     }
     
-    
+/*------ABOUT PAGE CSS------*/
+
+.about-block-1{
+    margin-top:0px;
+    display:flex;
+    flex-direction:row;
+}
+.about-block-1-column-1{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+.about-block-1-column-2{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+.about-photo {
+    position: relative;
+    width: 300px; 
+    height: 300px; 
+    border-radius: 50%;
+    overflow: hidden; 
+    margin:20px;
+}
+
+.about-photo-devansh {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    object-position: center ; 
+}
+.h4{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.h4{
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:white;
+    font-size:20px;
+    justify-content: center;
+}
