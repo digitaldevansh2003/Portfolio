@@ -18,6 +18,8 @@ body {
     display:flex;
     flex-direction:row;
     align-items: flex-start;
+    margin-top:-40px;
+    padding-top:0px;
     
 }
 .page-title{
@@ -85,7 +87,7 @@ body {
 }
 .h3{
     font-size:18px;
-    font-weight:500;
+    font-weight:600;
     color:white;
     margin-bottom:-50px;
     font-family: 'Raleway', sans-serif;
@@ -94,11 +96,11 @@ body {
 .zoom-image {
     width: 600px; 
     transition: transform 0.4s ease; 
-    margin-top:-50px;}
+    margin-top:-90px;}
   
 .zoom-image:hover {
     
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .home-block-2 {
@@ -215,17 +217,23 @@ body {
     transition: 0.6s ease-out;
     }
     
-/*------ABOUT PAGE CSS------*/
+                               /*------ABOUT PAGE CSS------*/
 
 .about-block-1{
-    margin-top:0px;
+    background-image: url("img/Occult\ Serial\ Killers\ and\ the\ Supernatural.jpeg"); 
+    background-size: cover;
     display:flex;
     flex-direction:row;
+    position: relative;
+    margin:0px;
+    padding:50px;
+    height:80vh;
 }
 .about-block-1-column-1{
     display:flex;
     flex-direction:column;
     justify-content: center;
+    padding-left:80px;
 }
 .about-block-1-column-2{
     display:flex;
@@ -238,7 +246,7 @@ body {
 
 .about-block-1-column-2 p{
     padding-top:30px;
-    font-size: 21px;
+    font-size: 24px;
 }
 .about-photo {
     position: relative;
@@ -276,6 +284,7 @@ body {
     align-content: space-between;
     height:100vh;
     padding:100px;
+    margin:100px;
 }
 
 .h3{
