@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url("img/_\ \(4\).jpeg"); 
+    background-image: url("img/homeBG.jpeg"); 
     background-size: cover;
 }
 
@@ -10,7 +10,7 @@ body {
     margin:0px;
     padding:50px;
     height:100vh;
-    background-image: url("img/_\ \(4\).jpeg");
+    background-image: url("img/homeBG.jpeg");
     background-size: cover;
 
 }
