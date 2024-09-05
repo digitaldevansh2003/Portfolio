@@ -1,30 +1,36 @@
 /* General Styles */
 body {
-    margin: 0;
-    padding: 0;
     background-image: url("img/homeBG.jpeg"); 
     background-size: cover;
+    margin-top:0%;
 }
 
 .home-block-1 {
     position: relative;
     margin: 0px;
-    padding: 50px;
+    padding: 1% 5% 1% 5%;
     height: 100vh;
     background-size: cover;
+}
+
+.navbar{
+    height:20%;
+    width:100%;
+    margin-top: 0%;
 }
 
 .page-title-container {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    margin-top: -40px;
-    padding-top: 0px;
+    width:20%;
+    height:20%;
+    
 }
 
 .page-title {
     color: white;
-    font-size: 22px;
+    font-size: 3vh;
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto Flex', sans-serif;
     font-weight: 500;
@@ -48,8 +54,8 @@ body {
 
 .menu-title {
     color: mediumpurple;
-    font-size: 14px;
-    padding-bottom: 8px;
+    font-size: 2vh;
+    padding-bottom: 1.6%;
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto Flex', sans-serif;
 }
@@ -61,9 +67,9 @@ body {
 }
 
 .insta, .linkdin, .twitter {
-    color: rgb(177, 164, 204);
+    color: mediumpurple;
     text-decoration: none; 
-    padding-right: 15px;
+    padding-right: 0.8vw;
 }
 
 .insta:hover, .linkdin:hover, .twitter:hover {
@@ -71,7 +77,7 @@ body {
 }
 
 .h1 {
-    font-size: 55px;
+    font-size:8vh;
     color: white;
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto Flex', sans-serif;
@@ -79,26 +85,26 @@ body {
 }
 
 .h2 {
-    font-size: 18px;
+    font-size: 2.2vh;
     color: white;
-    margin-top: -20px;
+    margin-top: -2.2vh;
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto Flex', sans-serif;
 }
 
 .h3 {
-    font-size: 18px;
+    font-size: 2vh;
     font-weight: 600;
     color: white;
-    margin-bottom: -50px;
+    margin-bottom:-6vh;
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto Flex', sans-serif;
 }
 
 .zoom-image {
-    width: 600px; 
+    width: 44vw; 
     transition: transform 0.4s ease; 
-    margin-top: -90px;
+    margin-top: -9vh;
 }
 
 .zoom-image:hover {
@@ -107,9 +113,8 @@ body {
 
 .home-block-2 {
     position: relative;
-    margin: 50px;
-    padding: 50px;
-    height: 620px;
+    margin: 5vmax;
+    height: 100vh;
     background-image: url("img/Darkwallpaper.jpeg");
     background-size: cover;
     display: flex; 
@@ -123,19 +128,18 @@ body {
 
 .carousel-container {
     position: absolute;
-    height: 300px;
-    width: 600px;
-    top: 130px;
-    left: calc(50% - 300px);
+    height: 30vh;
+    width: 40vw;
+    top: 27%;
     display: flex;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 10%;
 }
 
 .carousel-card {
     display: flex;
-    height: 300px;
-    width: 400px;
+    height: 45vh;
+    width: 30vw;
     background-color: #17141d;
     border-radius: 10px;
     box-shadow: -1rem 0 3rem #000;
@@ -157,16 +161,16 @@ body {
     color: mediumpurple;
     font-weight: 300;
     position: absolute;
-    left: 20px;
-    top: 15px;
+    left: 2vh;
+    top: 1.5vh;
 }
 
 .bar {
     position: absolute;
-    top: 100px;
-    left: 20px;
-    height: 5px;
-    width: 150px;
+    top: 22%;
+    left: 15%;
+    height: 1.3%;
+    width: 10vw;
 }
 
 .emptybar {
@@ -177,9 +181,9 @@ body {
 
 .filledbar {
     position: absolute;
-    top: 0px;
+    top: 0%;
     z-index: 3;
-    width: 0px;
+    width: 0%;
     height: 100%;
     background: rgb(0,154,217);
     background: linear-gradient(90deg, rgba(0,154,217,1) 0%, rgba(217,147,0,1) 65%, rgba(255,186,0,1) 100%);
@@ -188,14 +192,13 @@ body {
 }
 
 .carousel-card:hover .filledbar {
-    width: 150px;
+    width: 100%;
     transition: 0.4s ease-out;
 }
 
 .circle {
     position: absolute;
-    top: 150px;
-    left: calc(50% - 60px);
+    top: 50%;
 }
 
 .stroke {
@@ -207,7 +210,7 @@ body {
 
 svg {
     fill: #17141d;
-    stroke-width: 2px;
+    stroke-width: 20%;
 }
 
 .card:hover .stroke {
@@ -373,14 +376,26 @@ svg {
     }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 600px) {
+
+    .home-block-1, .home-block-2{
+        justify-content: center;
+        width:100%;
+        height:100%;
+    }
+
+    .insta, .linkdin, .twitter{
+        
+        align-items: end;
+        margin-left: 2vw;
+    }
+
     .page-title-container {
         flex-direction: column;
         align-items: center;
     }
 
     .menu-container {
-        align-items: center;
         margin-top: 10px;
     }
 
@@ -389,7 +404,7 @@ svg {
     }
 
     .h1 {
-        font-size: 40px;
+        font-size: 6vh;
     }
 
     .h2, .h3, .h4 {
@@ -418,29 +433,5 @@ svg {
     .about-photo {
         width: 150px;
         height: 150px;
-    }
-}
-
-@media (max-width: 480px) {
-    .h1 {
-        font-size: 30px;
-    }
-
-    .h2, .h3, .h4 {
-        font-size: 14px;
-    }
-
-    .zoom-image {
-        width: 200px;
-        margin-top: 20px;
-    }
-
-    .carousel-card {
-        margin: 10px 0;
-    }
-
-    .about-photo {
-        width: 100px;
-        height: 100px;
     }
 }
