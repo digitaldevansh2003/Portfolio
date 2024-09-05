@@ -376,7 +376,7 @@ svg {
     }
 }
 
-@media (min-width: 600px) {
+@media (max-width: 600px) {
 
     .home-block-1, .home-block-2{
         justify-content: center;
